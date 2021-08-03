@@ -4,19 +4,21 @@
 <!--end::Fonts -->
 
 <!--begin::Page Vendors Styles(used by this page) -->
+<link href="{{ asset('metronic/plugins/custom/fullcalendar/fullcalendar.bundle.css') }}" rel="stylesheet" type="text/css" />
 
 <!--end::Page Vendors Styles -->
 
 <!--begin::Global Theme Styles(used by all pages) -->
+<link href="{{ asset('metronic/plugins/global/plugins.bundle.css') }}" rel="stylesheet" type="text/css" />
+<link href="{{ asset('metronic/css/style.bundle.css') }}" rel="stylesheet" type="text/css" />
 
-<
-<!--end:: Vendor Plugins -->
+<!--end::Global Theme Styles -->
 
-<link href="{{ asset ('metronic/css/css/style.bundle.css')}}" rel="stylesheet" type="text/css" />
-<link href="{{ asset ('metronic/css/plugins/global/style.bundle.css')}}" rel="stylesheet" type="text/css" />
-<link href="{{ asset ('metronic/plugins/global/style.bundle.css')}}" rel="stylesheet" type="text/css" />
-<link href="{{ asset ('metronic/css/css/skins/aside/dark.css')}}" rel="stylesheet" type="text/css" />
-<link href="{{ asset ('metronic/css/css/skins/aside/brand/dark.css')}}" rel="stylesheet" type="text/css" />
-<link href="{{ asset ('metronic/css/css/skins/aside/header/menu/light.css')}}" rel="stylesheet" type="text/css" />
-<link href="{{ asset ('metronic/css/css/skins/aside/header/base/light.css')}}" rel="stylesheet" type="text/css" />
+<!--begin::Layout Skins(used by all pages) -->
+<link href="{{ asset('metronic/css/skins/header/base/light.css') }}" rel="stylesheet" type="text/css" />
+<link href="{{ asset('metronic/css/skins/header/menu/light.css') }}" rel="stylesheet" type="text/css" />
+<link href="{{ asset('metronic/css/skins/brand/dark.css') }}" rel="stylesheet" type="text/css" />
+<link href="{{ asset('metronic/css/skins/aside/dark.css') }}" rel="stylesheet" type="text/css" />
 
+<!--end::Layout Skins -->
+<link rel="shortcut icon" href="{{ asset('metronic/media/logos/favicon.ico') }}" />

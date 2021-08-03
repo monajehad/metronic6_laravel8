@@ -14,10 +14,9 @@ var KTDatatableRecordSelectionDemo = function() {
                 },
             },
             pageSize: 10,
-              serverPaging: true,
+            serverPaging: true,
             serverFiltering: true,
             serverSorting: true,
-            saveState:{cookie:false,webstorage:false}
         },
 
         // layout definition
