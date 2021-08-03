@@ -32,7 +32,6 @@ class StoreAdminRequest extends FormRequest
             'email' => 'required|email|string|max:200|unique:users',
             'mobile' => 'nullable|unique:users',
             'password' => 'required|max:200|min:6',
-            'roles' => 'required',
 
         ];
 

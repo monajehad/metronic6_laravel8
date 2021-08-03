@@ -88,6 +88,8 @@
 
     <script src="{{ asset('js/blades/datatable.js') }}"></script>
     <script src="{{ asset('js/blades/save.js') }}"></script>
-
+    <script>
+         new KTAvatar('kt_user_avatar_1');
+    </script>
 @endsection
 

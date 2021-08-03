@@ -51,3 +51,26 @@ function deleteFile($path)
         Storage::delete($path);
     }
 }
+
+
+function getImageUrl($media_path, $img_name)
+{
+    if($img_name && Storage::exists($media_path . $img_name))
+    {
+        return Storage::url($media_path . $img_name);
+    }
+
+    return getDefaultImg('user_img');
+}
+
+function getDefaultImg($name)
+{
+    if(App\Models\User::where('name', '=', $name)
+            ->count() > 0)
+    {
+        $img = App\Models\User::where('name', $name)
+            ->get()[0]->value;
+        return Storage::url(App\Models\User::MEDIA_PATH . $img);
+    }
+    return null;
+}

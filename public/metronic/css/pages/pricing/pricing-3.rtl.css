@@ -23,7 +23,7 @@
           font-size: 1.8rem;
           font-weight: 500;
           padding: 0.83rem 1.43rem 0.83rem 1.43rem;
-          background-color: rgba(93, 120, 255, 0.05);
+          background-color: rgba(77, 166, 255, 0.05);
           color: #74788d; }
           .kt-pricing-3 .kt-pricing-3__items .kt-pricing-3__item .kt-pricing-3__wrapper .kt-pricing-3__price.kt-pricing-3__price--padding {
             padding: 1.4rem 1.43rem 1.4rem 1.43rem; }
@@ -53,7 +53,7 @@
           .kt-pricing-3 .kt-pricing-3__items .kt-pricing-3__item .kt-pricing-3__wrapper .kt-pricing-3__btn > .btn {
             padding: 0.8rem 3.6rem 0.8rem 3.6rem; }
       .kt-pricing-3 .kt-pricing-3__items .kt-pricing-3__item.kt-pricing-3__item--focus {
-        background-color: #5d78ff;
+        background-color: #4da6ff;
         margin-top: -3rem;
         margin-bottom: -3rem;
         color: rgba(255, 255, 255, 0.1); }

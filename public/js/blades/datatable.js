@@ -63,7 +63,7 @@ var datatable_admin = function () {
 
                     return `<div class="kt-user-card-v2" style="width: inherit;">
 								<div class="kt-user-card-v2__img">
-									<img src="${t.img_url}" alt="${get('photo')}" height="50px!important" width="50px!important" style="object-fit: contain;">
+									<img src="${t.img_url}"  height="50px!important" width="50px!important" style="object-fit: contain;">
 								</div>
 								<div class="kt-user-card-v2__details mx-2">
 									<a href="#" class="kt-user-card-v2__name">${t.name}</a>
@@ -110,10 +110,15 @@ var datatable_admin = function () {
                 template: function (t) {
 
                     return `
-                  <button type="button" onclick="fillAdminModal(${t.id})" data-toggle="modal" data-target="#save_admin_modal"
-                        class="btn btn-outline-hover-success btn-icon btn-sm"><i class="la la-edit"></i></button>
+
+                    <button type="button"    onclick="fillAdminModal(${t.id})" data-toggle = "modal" data-target = "#save_admin_modal"
+                        class="btn btn-outline-hover-success btn-icon btn-sm edit_admin_btn">
+                        <i class="la la-edit"></i>
+                      </button>
                         <button onclick="remove(${t.id},'admins/delete',datatable)"
-                        class="btn btn-outline-hover-danger btn-icon btn-sm"><i class="la la-trash"></i></button>
+                        class="btn btn-outline-hover-danger btn-icon btn-sm">
+                        <i class="la la-trash"></i>
+                        </button>
                         `
                 }
             }],
@@ -208,6 +213,8 @@ $(document).on('click', '#kt_subheader_group_actions_delete_all', function () {
     var ids = datatable.checkbox().getSelectedId();
     let url = "admins/multi/delete";
     remove(ids, url, datatable);
+
+
 });
 
 
@@ -246,7 +253,9 @@ updateStatus = function(key,element, id) {
 
 fillAdminModal = function(id)
 {
+
     var row = general_data[id];
+    console.log('row', row);
     $('.kt-avatar__holder').attr('style', `background-image:url('${row.img_url}')`);
     $('#admin_id').val(id);
     $('#email').val(row.email);

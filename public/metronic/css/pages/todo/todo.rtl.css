@@ -52,16 +52,16 @@
       background-color: #f7f8fa;
       border-radius: 4px; }
       .kt-todo .kt-todo__aside .kt-todo__nav .kt-nav .kt-nav__item.hover .kt-nav__link i, .kt-todo .kt-todo__aside .kt-todo__nav .kt-nav .kt-nav__item.kt-nav__item--selected .kt-nav__link i, .kt-todo .kt-todo__aside .kt-todo__nav .kt-nav .kt-nav__item.kt-nav__item--active .kt-nav__link i {
-        color: #5d78ff; }
+        color: #4da6ff; }
       .kt-todo .kt-todo__aside .kt-todo__nav .kt-nav .kt-nav__item.hover .kt-nav__link g [fill], .kt-todo .kt-todo__aside .kt-todo__nav .kt-nav .kt-nav__item.kt-nav__item--selected .kt-nav__link g [fill], .kt-todo .kt-todo__aside .kt-todo__nav .kt-nav .kt-nav__item.kt-nav__item--active .kt-nav__link g [fill] {
         -webkit-transition: fill 0.3s ease;
         transition: fill 0.3s ease;
-        fill: #5d78ff; }
+        fill: #4da6ff; }
       .kt-todo .kt-todo__aside .kt-todo__nav .kt-nav .kt-nav__item.hover .kt-nav__link:hover g [fill], .kt-todo .kt-todo__aside .kt-todo__nav .kt-nav .kt-nav__item.kt-nav__item--selected .kt-nav__link:hover g [fill], .kt-todo .kt-todo__aside .kt-todo__nav .kt-nav .kt-nav__item.kt-nav__item--active .kt-nav__link:hover g [fill] {
         -webkit-transition: fill 0.3s ease;
         transition: fill 0.3s ease; }
       .kt-todo .kt-todo__aside .kt-todo__nav .kt-nav .kt-nav__item.hover .kt-nav__link .kt-nav__link-text, .kt-todo .kt-todo__aside .kt-todo__nav .kt-nav .kt-nav__item.kt-nav__item--selected .kt-nav__link .kt-nav__link-text, .kt-todo .kt-todo__aside .kt-todo__nav .kt-nav .kt-nav__item.kt-nav__item--active .kt-nav__link .kt-nav__link-text {
-        color: #5d78ff; }
+        color: #4da6ff; }
 
 .kt-todo .kt-todo__header {
   padding: 13px 25px;
@@ -97,7 +97,7 @@
         margin: 0 0.2rem; }
       .kt-todo .kt-todo__header .kt-todo__nav .kt-todo__link:hover, .kt-todo .kt-todo__header .kt-todo__nav .kt-todo__link.kt-todo__link--selected, .kt-todo .kt-todo__header .kt-todo__nav .kt-todo__link.kt-todo__link--active {
         background-color: #f7f8fa;
-        color: #5d78ff;
+        color: #4da6ff;
         border-radius: 4px; }
   .kt-todo .kt-todo__header .kt-todo__users {
     line-height: 0;
@@ -171,11 +171,11 @@
     .kt-todo .kt-todo__icon.kt-todo__icon--active.kt-todo__icon--light, .kt-todo .kt-todo__icon:hover.kt-todo__icon--light {
       background-color: transparent; }
     .kt-todo .kt-todo__icon.kt-todo__icon--active i, .kt-todo .kt-todo__icon:hover i {
-      color: #5d78ff; }
+      color: #4da6ff; }
     .kt-todo .kt-todo__icon.kt-todo__icon--active g [fill], .kt-todo .kt-todo__icon:hover g [fill] {
       -webkit-transition: fill 0.3s ease;
       transition: fill 0.3s ease;
-      fill: #5d78ff; }
+      fill: #4da6ff; }
     .kt-todo .kt-todo__icon.kt-todo__icon--active:hover g [fill], .kt-todo .kt-todo__icon:hover:hover g [fill] {
       -webkit-transition: fill 0.3s ease;
       transition: fill 0.3s ease; }
@@ -197,11 +197,11 @@
     .kt-todo .kt-todo__icon.kt-todo__icon--back:hover {
       background-color: transparent; }
       .kt-todo .kt-todo__icon.kt-todo__icon--back:hover i {
-        color: #5d78ff; }
+        color: #4da6ff; }
       .kt-todo .kt-todo__icon.kt-todo__icon--back:hover g [fill] {
         -webkit-transition: fill 0.3s ease;
         transition: fill 0.3s ease;
-        fill: #5d78ff; }
+        fill: #4da6ff; }
       .kt-todo .kt-todo__icon.kt-todo__icon--back:hover:hover g [fill] {
         -webkit-transition: fill 0.3s ease;
         transition: fill 0.3s ease; }
@@ -286,7 +286,7 @@
         .kt-todo .kt-todo__list .kt-todo__head .kt-todo__toolbar .kt-todo__controls .kt-todo__pages .kt-todo__perpage:hover {
           -webkit-transition: all 0.3s ease;
           transition: all 0.3s ease;
-          color: #5d78ff; }
+          color: #4da6ff; }
     .kt-todo .kt-todo__list .kt-todo__head .kt-todo__toolbar .kt-todo__sep {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -341,9 +341,9 @@
                 font-size: 1rem;
                 color: #ebedf2; }
               .kt-todo .kt-todo__list .kt-todo__body .kt-todo__items .kt-todo__item .kt-todo__info .kt-todo__actions .kt-todo__icon:hover i {
-                color: rgba(255, 184, 34, 0.5) !important; }
+                color: rgba(255, 184, 15, 0.5) !important; }
               .kt-todo .kt-todo__list .kt-todo__body .kt-todo__items .kt-todo__item .kt-todo__info .kt-todo__actions .kt-todo__icon.kt-todo__icon--on i {
-                color: #ffb822 !important; }
+                color: #ffb80f !important; }
           .kt-todo .kt-todo__list .kt-todo__body .kt-todo__items .kt-todo__item .kt-todo__info .kt-todo__sender {
             display: -webkit-box;
             display: -ms-flexbox;
@@ -457,7 +457,7 @@
             .kt-todo .kt-todo__list .kt-todo__foot .kt-todo__toolbar .kt-todo__controls .kt-todo__pages .kt-todo__perpage:hover {
               -webkit-transition: all 0.3s ease;
               transition: all 0.3s ease;
-              color: #5d78ff; }
+              color: #4da6ff; }
 
 .kt-todo .kt-todo__view {
   padding: 0;
@@ -511,7 +511,7 @@
             font-size: 1.1rem;
             padding-left: 0.5rem; }
             .kt-todo .kt-todo__view .kt-todo__wrapper .kt-todo__head .kt-todo__toolbar .kt-todo__info .kt-todo__name:hover {
-              color: #5d78ff;
+              color: #4da6ff;
               -webkit-transition: all 0.3s ease;
               transition: all 0.3s ease; }
         .kt-todo .kt-todo__view .kt-todo__wrapper .kt-todo__head .kt-todo__toolbar .kt-todo__details {
@@ -527,7 +527,7 @@
           .kt-todo .kt-todo__view .kt-todo__wrapper .kt-todo__head .kt-todo__toolbar .kt-todo__details .kt-todo__icon {
             margin: 0.4rem 0 0.4rem 0.5rem;
             font-size: 0.7rem;
-            color: #5d78ff; }
+            color: #4da6ff; }
           .kt-todo .kt-todo__view .kt-todo__wrapper .kt-todo__head .kt-todo__toolbar .kt-todo__details .kt-todo__desc {
             color: #74788d;
             font-weight: 400;
@@ -587,7 +587,7 @@
             .kt-todo .kt-todo__view .kt-todo__wrapper .kt-todo__body .kt-todo__title .kt-todo__labels .kt-todo__label:last-child {
               padding-right: 1.5rem; }
         .kt-todo .kt-todo__view .kt-todo__wrapper .kt-todo__body .kt-todo__title:hover {
-          color: #5d78ff;
+          color: #4da6ff;
           -webkit-transition: all 0.3s ease;
           transition: all 0.3s ease; }
       .kt-todo .kt-todo__view .kt-todo__wrapper .kt-todo__body .kt-todo__desc {
@@ -606,7 +606,7 @@
             color: #74788d;
             font-weight: 500; }
             .kt-todo .kt-todo__view .kt-todo__wrapper .kt-todo__body .kt-todo__files .kt-todo__file a:hover {
-              color: #5d78ff;
+              color: #4da6ff;
               -webkit-transition: all 0.3s ease;
               transition: all 0.3s ease; }
       .kt-todo .kt-todo__view .kt-todo__wrapper .kt-todo__body .kt-todo__comments {
@@ -631,7 +631,7 @@
               color: #595d6e;
               font-weight: 500; }
               .kt-todo .kt-todo__view .kt-todo__wrapper .kt-todo__body .kt-todo__comments .kt-todo__comment .kt-todo__box .kt-todo__username:hover {
-                color: #5d78ff;
+                color: #4da6ff;
                 -webkit-transition: all 0.3s ease;
                 transition: all 0.3s ease; }
             .kt-todo .kt-todo__view .kt-todo__wrapper .kt-todo__body .kt-todo__comments .kt-todo__comment .kt-todo__box .kt-todo__date {
@@ -922,7 +922,7 @@
     .kt-todo__aside-close:hover {
       background-color: transparent; }
       .kt-todo__aside-close:hover > i {
-        color: #5d78ff; } }
+        color: #4da6ff; } }
 
 @media (max-width: 350px) {
   .kt-todo__aside {
