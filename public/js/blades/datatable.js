@@ -73,6 +73,12 @@ var datatable_admin = function () {
 							</div>`
                 }},
             {
+                field: "mobile",
+                title:'mobile',
+                width: 100,
+                textAlign: 'left',
+            },
+            {
                 field: "is_active",
                 title: 'is_active',
                 filterable: 1,

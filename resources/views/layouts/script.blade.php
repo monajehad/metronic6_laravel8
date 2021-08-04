@@ -1,5 +1,10 @@
 <!-- begin::Global Config(global config for global JS sciprts) -->
 <script>
+    var baseUrl = @json(url('/'));
+
+
+</script>
+<script>
     var KTAppOptions = {
         "colors": {
             "state": {
@@ -54,3 +59,4 @@
 <script src="{{ asset('js/helper/toastr_msg/toastr_general_options.js') }}" type="text/javascript"></script>
 <script src="{{ asset('js/helper/laravel_validation_errors.js') }}" type="text/javascript"></script>
 <script src="{{ asset('js/helper/reset_form.js') }}" type="text/javascript"></script>
+

@@ -84,7 +84,7 @@
 @endsection
 @section('script')
 
-    <script src="{{ asset('plugins/jquery-ui.bundle.js') }}"></script>
+{{--    <script src="{{ asset('plugins/jquery-ui.bundle.js') }}"></script>--}}
 
     <script src="{{ asset('js/blades/datatable.js') }}"></script>
     <script src="{{ asset('js/blades/save.js') }}"></script>
